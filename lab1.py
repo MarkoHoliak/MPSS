@@ -40,7 +40,7 @@ def r_squared(data):
 def plot_data_and_equation(data):
     scatter = go.Scatter3d(
         x=data[0], y=data[1], z=data[2], mode='markers',
-        marker=dict(size=5, color='gray', opacity=0.8), name='Дані'
+        marker=dict(size=6, color='gray', opacity=0.8), name='Дані'
     )
 
     x1_vals = np.linspace(-1, 3, 100)
